@@ -10,6 +10,8 @@ h2 {
     float: left;
     display: block;
     text-align: center;
+    z-index: 1000;
+    position: relative;
 }
 .sticky {
     position: fixed;
@@ -89,8 +91,8 @@ h3 a {
     margin-top: auto;
     margin-right: auto;
     margin-left: auto;
-    width: 90%;
-    height: 90%;
+    width: 600px;
+    height: 500px;
 
 }
 
