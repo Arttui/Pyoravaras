@@ -100,7 +100,39 @@ h3 a {
     height: 500px;
 
 }
+.tekbod {
+    padding-left: 0;
+    padding-right: 0;
+}
+.rivi {
+    margin-top: 15%;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+}
+.rivi :first-child {
+    padding-left: 20%;
+}
 
+.rivi2 {
+    margin-top: 5%;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portrait {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 #vali{
     display: block;
