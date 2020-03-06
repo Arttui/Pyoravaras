@@ -13,6 +13,10 @@ h2 {
     z-index: 1000;
     position: relative;
 }
+.logo {
+    background-color: transparent;
+    border: none;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -43,6 +47,7 @@ h1 {
 }
 .button-group .button:not(:last-child) {
     border-right: none;
+    background-color: transparent;
 
 }
 #wrapper {
